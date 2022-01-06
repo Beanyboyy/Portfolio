@@ -4,8 +4,8 @@ import React from 'react';
 const Footer = () => {
   return(
     <div className="fixed w-screen h-screen flex justify-center z-10">
-      <div className="footer-bar grid grid-cols-5 text-white w-full pb-8 place-content-end">
-        <div className="px-8">
+      <div className="footer-bar grid grid-cols-2 xl:grid-cols-5 text-white w-full pb-8 place-content-end">
+        <div className="px-8 hidden xl:block">
           <div className="px-4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1188.8 603.4" className="w-9">
               <path
@@ -14,31 +14,31 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className="grid place-itmes-center">
-          <div className="font-bold text-lg">
+        <div className="px-4 xl:px-0 grid place-itmes-center">
+          <div className="font-bold text-sm xl:text-lg">
             Based in Biarritz
           </div>
-          <div className="font-medium opacity-50">
+          <div className="font-medium opacity-50 text-sm xl:text-md">
             Grew up in La Reunion
           </div>
         </div>
         <div className="grid place-items-center">
-          <div className="font-bold text-lg">
+          <div className="font-bold text-sm xl:text-lg">
             Student and surfer
           </div>
-          <div className="font-medium opacity-50">
+          <div className="font-medium opacity-50 text-sm xl:text-md">
             Nerd and skater
           </div>
         </div>
-        <div className="grid place-items-center">
-          <div className="font-bold text-lg">
+        <div className="grid px-4 pt-4 xl:pt-0 xl:px-0 xl:place-items-center">
+          <div className="font-bold text-sm xl:text-lg">
             C++ lover
           </div>
-          <div className="font-medium opacity-50">
+          <div className="font-medium opacity-50 text-sm xl:text-md">
             and Cum eater
           </div>
         </div>
-        <div className="grid place-items-end px-8">
+        <div className="grid xl:place-items-end px-4 pt-4 xl:pt-0 xl:px-8">
           <div className="px-4">
             GROS NEGRO
           </div>
