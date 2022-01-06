@@ -9,10 +9,10 @@ export default function Navbar() {
                <div className="px-8">
                     <div className="flex">
                          <div className="px-4 border-r border-solid border-white font-medium">
-                              monopo
+                              PAIN
                          </div>
                          <div className="px-4">
-                              london
+                              Beany
                          </div>
                     </div>
                </div>
@@ -24,16 +24,12 @@ export default function Navbar() {
                          <li className="uppercase pb-4 font-medium cursor-pointer transition duration-300 linear opacity-50 hover:opacity-100">
                               Work
                          </li>
-                         <li className="uppercase pb-4 font-medium cursor-pointer transition duration-300 linear opacity-50 hover:opacity-100">
-                              Services
-                         </li>
+                        
                     </ul>
                </div>
                <div className="hidden xl:block">
                     <ul className="text-white text-sm">
-                         <li className="uppercase pb-4 font-medium cursor-pointer transition duration-300 linear opacity-50 hover:opacity-100">
-                              Team
-                         </li>
+ 
                          <li className="uppercase pb-4 font-medium cursor-pointer transition duration-300 linear opacity-50 hover:opacity-100">
                               Contact
                          </li>

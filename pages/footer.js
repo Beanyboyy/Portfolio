@@ -16,31 +16,31 @@ const Footer = () => {
         </div>
         <div className="grid place-itmes-center">
           <div className="font-bold text-lg">
-            Based in Biarritz
+            Based in Biarritz and Bordeaux
           </div>
           <div className="font-medium opacity-50">
-            Grew up in La Reunion
+            Grew up in La Reunion and Basque Country
           </div>
         </div>
         <div className="grid place-items-center">
           <div className="font-bold text-lg">
-            Student and surfer
+            Student Surfer Skater Fencer
           </div>
           <div className="font-medium opacity-50">
-            Nerd and skater
+            Nerd and Trash
           </div>
         </div>
         <div className="grid place-items-center">
           <div className="font-bold text-lg">
-            C++ lover
+            From C++ to the World 
           </div>
           <div className="font-medium opacity-50">
-            and Cum eater
+            Big Dreamer
           </div>
         </div>
         <div className="grid place-items-end px-8">
           <div className="px-4">
-            GROS NEGRO
+            " Ce lait est lent " 
           </div>
         </div>
       </div>
