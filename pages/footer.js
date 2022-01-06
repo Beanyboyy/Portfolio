@@ -4,8 +4,8 @@ import React from 'react';
 const Footer = () => {
   return(
     <div className="fixed w-screen h-screen flex justify-center z-10">
-      <div className="footer-bar grid grid-cols-5 text-white w-full pb-8 place-content-end">
-        <div className="px-8">
+      <div className="footer-bar grid grid-cols-2 xl:grid-cols-5 text-white w-full pb-8 place-content-end">
+        <div className="px-8 hidden xl:block">
           <div className="px-4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1188.8 603.4" className="w-9">
               <path
@@ -38,7 +38,7 @@ const Footer = () => {
             Big Dreamer
           </div>
         </div>
-        <div className="grid place-items-end px-8">
+        <div className="grid xl:place-items-end px-4 pt-4 xl:pt-0 xl:px-8">
           <div className="px-4">
             " Ce lait est lent " 
           </div>

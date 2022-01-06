@@ -8,8 +8,13 @@ export default function Home() {
   return (
     <div className="bg-black w-screen h-screen">
       <Navbar/>
-      <div>
-
+      <div className="text-white absolute top-1/2 left-1/2 flex xl:hidden">
+        <div>
+          Beanny
+        </div>
+        <div>
+          Boy
+        </div>
       </div>
       <Footer/>
     </div>
