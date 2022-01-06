@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>  {/*haut page*/}
 
         <div>
-           
+
         </div>
 
         <div>
@@ -17,7 +17,7 @@ export default function Navbar() {
            </Link>
 
            <Link href="/Chez_moi">
-                <a className="font-bold text-xl text-white ">Chez moi</a>     
+                <a className="font-bold text-xl text-white ">Chez moi</a>
            </Link>
 
            <Link href="/Contact">
@@ -26,34 +26,34 @@ export default function Navbar() {
         </div>
 
         <div>
-            
-            
+
+
         </div>
 
         <div>
-            
+
         </div>
-       
+
         </div>
 
          {/* fin haut */}
          {/* // bas de page */}
-        <div>  
+        <div>
         <div>
 
            </div>
            <div>
-               
+
            </div>
-           
+
            <div>
-               
+
            </div>
            <div>
-               
+
            </div>
-           
-         
+
+
         </div>
 
         {/* //fin bas */}
